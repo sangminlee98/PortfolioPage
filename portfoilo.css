@@ -1,0 +1,209 @@
+body {
+    margin: 0;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+
+.clear-box {
+    clear: both;
+}
+
+.sub-button{
+    background-color: black;
+    padding: 10px 20px 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.sub-button:hover {
+    background-color: grey;
+}
+
+.jumbo {
+    background: linear-gradient(to bottom, skyblue,blue);
+    width: 100%;
+    max-width: 1200px;
+    color: white;
+}
+
+.intro {
+    float: left;
+    width: 50%;
+    height: 100%;
+    padding-top: 10%;
+    padding-left: 5%;
+}
+
+
+.iphone {
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+
+.subtitle-content{
+    width: 70%;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.subtitle-content h2 {
+    margin-bottom: 0;
+}
+
+.subtitle-content p {
+    font-size: 7px;
+    color: lightgrey;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.whatweoffer {
+    text-align: center;
+    background-color: #4b89dc;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.wwo-content {
+    width: 90%;
+    margin: auto;
+}
+
+.title {
+    margin-bottom: 30px;
+}
+
+.title p {
+    margin-bottom: 0;;
+    color: rgb(219, 193, 45)
+}
+
+.title h1 {
+    margin-top: 0;
+}
+
+.wwo-icons-container {
+    text-align: center;
+}
+
+.wwo-icons-content {
+    width: 25%;
+    float: left;
+    margin-top: 50px;
+}
+
+.wwo-icons-content i {
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    box-sizing: border-box;
+    padding-top: 25px;
+    color: #4b89dc;
+}
+
+.whatyoucando {
+    margin-top: 200px;
+}
+
+.wucd-container {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+.wucd-img {
+    float: left;
+    width: 50%;
+    height: 300px;
+    color: white;
+}
+
+.wucd-img-content {
+    padding: 30px;
+    text-align: left;
+    margin-top: 80px;
+}
+
+.img1 {
+    background-image: url('./imges/portfolio-1.jpeg');
+    background-size: cover;
+    position: relative;
+}
+
+.white-box {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+}
+
+.white-box:hover {
+    border: 20px solid white;
+    transition: all 0.5s;
+}
+
+.img2 {
+    background-image: url('./imges/portfolio-2.jpeg');
+    background-size: cover;
+    position: relative;
+}
+
+.img3 {
+    background-image: url('./imges/portfolio-3.jpeg');
+    background-size: cover;
+    position: relative;
+}
+
+.img4 {
+    background-image: url('./imges/portfolio-4.jpeg');
+    background-size: cover;
+    position: relative;
+}
+
+footer {
+    margin-top: 200px;
+    text-align: center;
+}
+
+footer i {
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    color: white;
+    background-color: #4b89dc;
+    border-radius: 50px;
+    box-sizing: border-box;
+    padding-top: 10px;
+    
+}
+
+
+@media screen and (max-width:765px) {
+    .intro{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .iphone{
+        float: none;
+        width: 100%;
+    }
+    .wwo-icons-content {
+        float: none;
+        width: 100%;
+    }
+    .wucd-img {
+        float: none;
+        width: 100%;
+    }
+}
