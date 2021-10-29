@@ -1,2 +1,2 @@
 # PortfolioPage
-### url: sangminlee98.github.io/PortfolioPage/portfolio.html
+### page url : sangminlee98.github.io/PortfolioPage/portfolio.html
